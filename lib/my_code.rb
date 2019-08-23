@@ -19,7 +19,7 @@ end
 
 
 
-def reduce(array, starting = 0)
+def reduce(array, starting = nil)
   if starting
     accum = starting
     i = 0
